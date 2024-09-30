@@ -39,7 +39,7 @@ def simple_upload(request):
 
 
 
-
+# Detect fac with opencv
 def detect_face(request):
 
     if request.method == 'POST':
